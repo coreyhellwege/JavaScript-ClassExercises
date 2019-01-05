@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/main.js"></script>
+</head>
+<body>
+    <nav class="navigation">
+        <a href="/">Home</a>
+    </nav>
+    <ul class="books">
+        <p class="loader">Loading books...</p>
+    </ul>
+
+    <form id="bookForm">
+        <h2>Add a Book</h2>
+        <p>
+            <label for="title">Title</label>
+            <input type="text" name="title">
+        </p>
+
+        <p>
+            <label for="isbn">ISBN</label>
+            <input type="text" name="isbn">
+        </p>
+
+        <p>
+            <label for="description">Description</label>
+            <textarea name="description" cols="30" rows="10" style="resize: none;"></textarea>   
+        </p>
+
+        <p>
+            <label for="price">Price in cents</label>
+            <input type="number" name="price">
+        </p>
+
+        <p>
+            <label for="author">Author</label>
+            <input type="text" name="author">
+        </p>
+
+        <p>
+            <input type="submit" value="Create Book">
+        </p>
+
+    </form>
+
+</body>
+</html>
